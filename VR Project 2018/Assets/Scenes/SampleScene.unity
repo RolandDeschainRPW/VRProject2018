@@ -877,6 +877,10 @@ Prefab:
       propertyPath: m_Name
       value: TutorialObstacle
       objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: c3b09651df17ee84fb2aab4d9dccd396, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5994cddd964e410419d1350ff9a95037, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c3b09651df17ee84fb2aab4d9dccd396, type: 3}
   m_IsPrefabAsset: 0
