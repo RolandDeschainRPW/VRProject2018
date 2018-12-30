@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 409f93c1b6f30cf49bcafa3b54aba5d9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: HeartBridge
+    100002: HeartEnemyTunnels
+    100004: HeartEnter
+    100006: HeartFinalArena
+    100008: HeartFinalGround
+    100010: HeartFirstArena
+    100012: HeartFirstGround
+    100014: //RootNode
+    100016: HeartMiddle
+    400000: HeartBridge
+    400002: HeartEnemyTunnels
+    400004: HeartEnter
+    400006: HeartFinalArena
+    400008: HeartFinalGround
+    400010: HeartFirstArena
+    400012: HeartFirstGround
+    400014: //RootNode
+    400016: HeartMiddle
+    2100000: MuscleMat5
+    2100002: MuscleMat4
+    2100004: BlackTunnelMat
+    2100006: VeinMat
+    2100008: MuscleMat3
+    2100010: MuscleMat2
+    2100012: MuscleMat1
+    2300000: HeartBridge
+    2300002: HeartEnemyTunnels
+    2300004: HeartEnter
+    2300006: HeartFinalArena
+    2300008: HeartFinalGround
+    2300010: HeartFirstArena
+    2300012: HeartFirstGround
+    2300014: HeartMiddle
+    3300000: HeartBridge
+    3300002: HeartEnemyTunnels
+    3300004: HeartEnter
+    3300006: HeartFinalArena
+    3300008: HeartFinalGround
+    3300010: HeartFirstArena
+    3300012: HeartFirstGround
+    3300014: HeartMiddle
+    4300000: HeartEnemyTunnels
+    4300002: HeartFinalGround
+    4300004: HeartBridge
+    4300006: HeartMiddle
+    4300008: HeartFinalArena
+    4300010: HeartFirstGround
+    4300012: HeartEnter
+    4300014: HeartFirstArena
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackTunnelMat
+    second: {fileID: 2100000, guid: b9e66796db1265b418aa033b39c616d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MuscleMat1
+    second: {fileID: 2100000, guid: a97b41a46b5a7014a98fbe46c2007720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MuscleMat2
+    second: {fileID: 2100000, guid: 81bc31dfa5bdf8e4786df3ebc78d9dea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MuscleMat3
+    second: {fileID: 2100000, guid: eb0614041f759724b84e97e29dc2e41e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MuscleMat4
+    second: {fileID: 2100000, guid: 4b1f44c7d5947804a8d209589ccb4540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MuscleMat5
+    second: {fileID: 2100000, guid: 927c0fee21867e74ea24799f23045c78, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: VeinMat
+    second: {fileID: 2100000, guid: bfd81368205d19e4b8be3bfe19ee82df, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
