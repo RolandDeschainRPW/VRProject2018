@@ -23,7 +23,8 @@ ModelImporter:
     400014: StomachIslandsSet2
     400016: //RootNode
     400018: StomachSafeZone
-    2100000: StomachMat
+    2100000: No Name
+    2100002: StomachMat
     2300000: StomachClimb1
     2300002: StomachClimb2
     2300004: StomachDome
@@ -42,15 +43,24 @@ ModelImporter:
     3300012: StomachIslandsSet1
     3300014: StomachIslandsSet2
     3300016: StomachSafeZone
-    4300000: StomachFinalBridge
+    4300000: StomachClimb1
     4300002: StomachIslandsSet2
-    4300004: StomachIslandsSet1
-    4300006: StomachSafeZone
-    4300008: StomachClimb2
-    4300010: StomachDome
-    4300012: StomachEnemyTunnels
-    4300014: StomachClimb1
+    4300004: StomachFinalBridge
+    4300006: StomachIslandsSet1
+    4300008: StomachSafeZone
+    4300010: StomachClimb2
+    4300012: StomachDome
+    4300014: StomachEnemyTunnels
     4300016: StomachEntrance
+    6400000: StomachClimb1
+    6400002: StomachClimb2
+    6400004: StomachDome
+    6400006: StomachEnemyTunnels
+    6400008: StomachEntrance
+    6400010: StomachFinalBridge
+    6400012: StomachIslandsSet1
+    6400014: StomachIslandsSet2
+    6400016: StomachSafeZone
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -84,7 +94,8 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -109,6 +120,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -123,7 +137,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1
