@@ -2,9 +2,9 @@
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
-public class GameManagerScript : MonoBehaviour
+public class MyGameManagerScript : MonoBehaviour
 {
-    public static GameManagerScript Instance{ set; get; }
+    public static MyGameManagerScript Instance{ set; get; }
 
     private void Awake()
     {

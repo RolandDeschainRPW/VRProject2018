@@ -9,7 +9,7 @@ public class LoadTrigger : MonoBehaviour
     private void OnTriggerEnter(Collider col)
     {
         if (loadName != "")
-            GameManagerScript.Instance.Load(loadName);
+            MyGameManagerScript.Instance.Load(loadName);
 
         if (unloadName != "")
             StartCoroutine("UnloadScene");
@@ -18,6 +18,6 @@ public class LoadTrigger : MonoBehaviour
     IEnumerator UnloadScene()
     {
         yield return new WaitForSeconds(.10f);
-        GameManagerScript.Instance.Unload(unloadName);
+        MyGameManagerScript.Instance.Unload(unloadName);
     }
 }
