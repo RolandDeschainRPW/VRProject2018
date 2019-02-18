@@ -16,6 +16,7 @@ public class PlayerMovement : MonoBehaviour
     Rigidbody playerRigidbody;
     Vector3 m_GroundNormal;
     Animator m_Animator;
+    private Transform playerTransform;
 
     bool m_IsGrounded =true;
     private bool m_Jump;
@@ -25,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
         anim = GetComponent<Animator>();
         playerRigidbody = GetComponent<Rigidbody>();
         m_Animator = GetComponent<Animator>();
+        playerTransform = GetComponent<Transform>();
     }
 
    private void Update()
@@ -60,7 +62,7 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleAirborneMovement(float h, float v)
     {
-        movement.Set(h, 0f, v);
+        movement = v * playerTransform.forward + h * playerTransform.right;
         movement = movement.normalized * Time.deltaTime;
         playerRigidbody.MovePosition(transform.position + movement);
     }
@@ -78,7 +80,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            movement.Set(h, 0f, v);
+            movement = v * playerTransform.forward + h * playerTransform.right;
             movement = movement.normalized * Time.deltaTime;
             playerRigidbody.MovePosition(transform.position + movement);
         }
@@ -110,14 +112,12 @@ public class PlayerMovement : MonoBehaviour
             m_GroundNormal = hitInfo.normal;
             m_IsGrounded = true;
             m_Animator.applyRootMotion = true;
-            Debug.Log("hit !!!!");
         }
         else
         {
             m_IsGrounded = false;
             m_GroundNormal = Vector3.up;
             m_Animator.applyRootMotion = false;
-            Debug.Log("no hit");
         }
     }
 
