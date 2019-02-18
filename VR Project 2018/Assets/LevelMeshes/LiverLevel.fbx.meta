@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5b29b3e769e7440458617f6033d2d80a
+guid: 3376d1601f164c24a94992afdc01ae4d
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -11,8 +11,8 @@ ModelImporter:
     400002: //RootNode
     400004: LiverLevel
     400006: LiverPlatform
-    2100000: LiverMat2
-    2100002: LiverMat1
+    2100000: LiverMat1
+    2100002: LiverMat2
     2300000: LiverClimb
     2300002: LiverLevel
     2300004: LiverPlatform
@@ -22,6 +22,9 @@ ModelImporter:
     4300000: LiverClimb
     4300002: LiverLevel
     4300004: LiverPlatform
+    6400000: LiverClimb
+    6400002: LiverLevel
+    6400004: LiverPlatform
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -65,13 +68,14 @@ ModelImporter:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
-    addColliders: 0
+    addColliders: 1
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
@@ -90,6 +94,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -104,7 +111,6 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

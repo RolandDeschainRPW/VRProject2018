@@ -11,7 +11,7 @@ public class MyGameManagerScript : MonoBehaviour
         Instance = this;
         Load("Player");
         Load("Level01");
-        //Load("Level02");
+        Load("Level02");
     }
 
     public void Load(string sceneName)

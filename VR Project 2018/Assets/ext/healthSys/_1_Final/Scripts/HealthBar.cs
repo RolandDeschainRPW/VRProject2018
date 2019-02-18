@@ -1,17 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 namespace CodeMoney_HowToHealthSystem_1_Final {
 
     public class HealthBar : MonoBehaviour {
 
         private HealthSystem healthSystem;
-        public Transform target;
-        
+        private Transform target;
+
+        // Use this for initialization
+        void Start()
+        {
+            this.target = GameObject.FindWithTag("MainCamera").transform;
+        }
+
         public void Setup(HealthSystem healthSystem) {
             this.healthSystem = healthSystem;
-
+            
             healthSystem.OnHealthChanged += HealthSystem_OnHealthChanged;
             UpdateHealthBar();
         }

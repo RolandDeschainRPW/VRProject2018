@@ -4,13 +4,14 @@ using System.Collections;
 public class chase : MonoBehaviour
 {
 
-    public Transform player;
+    private Transform player;
     private Animator anim;
 
     // Use this for initialization
     void Start()
     {
         anim = GetComponent<Animator>();
+        player = GameObject.FindWithTag("Player").transform;
     }
 
     // Update is called once per frame
