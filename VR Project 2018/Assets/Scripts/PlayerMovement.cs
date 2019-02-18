@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
     void HandleAirborneMovement(float h, float v)
     {
         movement = v * playerTransform.forward + h * playerTransform.right;
-        movement = movement.normalized * Time.deltaTime;
+        movement = movement.normalized * speed * Time.deltaTime;
         playerRigidbody.MovePosition(transform.position + movement);
     }
 
@@ -81,21 +81,24 @@ public class PlayerMovement : MonoBehaviour
         else
         {
             movement = v * playerTransform.forward + h * playerTransform.right;
-            movement = movement.normalized * Time.deltaTime;
+            movement = movement.normalized * speed * Time.deltaTime;
             playerRigidbody.MovePosition(transform.position + movement);
         }
     }
 
         private void Animating(float h, float v)
     {
-        bool run = h == 0f && v > 0.1f;
-        bool runBack = h == 0f && v < -0.1f;
-        bool runLeft = h < -0.1f && v == 0f;
-        bool runRight = h > 0.1f && v == 0f;
-        anim.SetBool("runningForwards", run);
-        anim.SetBool("runningBackwards", runBack);
-        anim.SetBool("runningRight", runRight);
-        anim.SetBool("runningLeft", runLeft);
+        //bool run = h == 0f && v > 0.1f;
+        //bool runBack = h == 0f && v < -0.1f;
+        //bool runLeft = h < -0.1f && v == 0f;
+        //bool runRight = h > 0.1f && v == 0f;
+        //anim.SetBool("runningForwards", run);
+        //anim.SetBool("runningBackwards", runBack);
+        //anim.SetBool("runningRight", runRight);
+        //anim.SetBool("runningLeft", runLeft);
+        anim.SetFloat("Direction", h);
+        anim.SetFloat("Forward", v);
+        anim.SetBool("Grounded", m_IsGrounded);
     }
 
     void CheckGroundStatus()
