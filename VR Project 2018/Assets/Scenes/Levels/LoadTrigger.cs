@@ -17,7 +17,7 @@ public class LoadTrigger : MonoBehaviour
 
     IEnumerator UnloadScene()
     {
-        yield return new WaitForSeconds(.10f);
+        yield return new WaitForSeconds(0.10f);
         MyGameManagerScript.Instance.Unload(unloadName);
     }
 }

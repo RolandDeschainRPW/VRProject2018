@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 1969620217}
   m_Layer: 0
   m_Name: GameManager
-  m_TagString: Untagged
+  m_TagString: GM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -142,6 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 401bc72887904604199d693d24aa3b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastCheckPointPos: {x: 187.04, y: 16.02, z: 372.2}
 --- !u!4 &1969620218
 Transform:
   m_ObjectHideFlags: 0

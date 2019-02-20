@@ -5,10 +5,16 @@ using UnityEngine;
 public class MyGameManagerScript : MonoBehaviour
 {
     public static MyGameManagerScript Instance{ set; get; }
+    public Vector3 lastCheckPointPos;
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null) {
+            Instance = this;
+            DontDestroyOnLoad(Instance);
+        } else {
+            Destroy(gameObject);
+        }
         Load("Player");
         Load("Level01");
         Load("Level02");
@@ -23,6 +29,6 @@ public class MyGameManagerScript : MonoBehaviour
     public void Unload(string sceneName)
     {
         if (SceneManager.GetSceneByName(sceneName).isLoaded)
-            SceneManager.UnloadScene(sceneName);
+            SceneManager.UnloadSceneAsync(sceneName);
     }
 }

@@ -28,7 +28,7 @@ public class chase : MonoBehaviour
                                         Quaternion.LookRotation(direction), 0.1f);
 
             anim.SetBool("isIdle", false);
-            if (direction.magnitude > 2)
+            if (direction.magnitude > 1)
             {
                 this.transform.Translate(0, 0, 0.05f);
                 anim.SetBool("isMoving", true);
