@@ -64,6 +64,7 @@ GameObject:
   - component: {fileID: 6881949204970522139}
   - component: {fileID: 8721059233429459222}
   - component: {fileID: 8721059233429459217}
+  - component: {fileID: 5966176092580221871}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -169,6 +170,25 @@ MonoBehaviour:
   cam: {fileID: 6881949203517625956}
   m_JumpPower: 8.7
   m_GroundCheckDistance: 0.1
+--- !u!114 &5966176092580221871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6881949204970522130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 490ca6b6d5bc9b940b8250ffefb7552d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  currentHealth: 100
+  healthSlider: {fileID: 0}
+  damageImage: {fileID: 0}
+  deathClip: {fileID: 0}
+  flashSpeed: 5
+  flashColour: {r: 1, g: 0, b: 0, a: 0.1}
 --- !u!1001 &6881949203517264612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -251,7 +271,7 @@ PrefabInstance:
     - target: {fileID: 11400000, guid: baec086904791744185aaa07a6cf55c2, type: 3}
       propertyPath: m_Target
       value: 
-      objectReference: {fileID: 6881949204970522136}
+      objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: baec086904791744185aaa07a6cf55c2, type: 3}
       propertyPath: m_TurnSpeed
       value: 4
