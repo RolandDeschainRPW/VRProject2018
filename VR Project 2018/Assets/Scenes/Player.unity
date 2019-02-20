@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Direction: 0
   m_MinValue: 0
   m_MaxValue: 100
-  m_WholeNumbers: 1
+  m_WholeNumbers: 0
   m_Value: 100
   m_OnValueChanged:
     m_PersistentCalls:
@@ -858,10 +858,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8721059233429459217, guid: efa5ebfaf5ee51a419e12ded1686736d,
+    - target: {fileID: 6881949204970522139, guid: efa5ebfaf5ee51a419e12ded1686736d,
         type: 3}
-      propertyPath: speed
-      value: 3.82
+      propertyPath: rotationSpeed
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6886193257165541482, guid: efa5ebfaf5ee51a419e12ded1686736d,
         type: 3}
@@ -903,16 +903,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 38.4
       objectReference: {fileID: 0}
-    - target: {fileID: 6881949204970522139, guid: efa5ebfaf5ee51a419e12ded1686736d,
+    - target: {fileID: 8721059233429459217, guid: efa5ebfaf5ee51a419e12ded1686736d,
         type: 3}
-      propertyPath: rotationSpeed
-      value: 3
+      propertyPath: speed
+      value: 3.82
       objectReference: {fileID: 0}
     - target: {fileID: 5966176092580221871, guid: efa5ebfaf5ee51a419e12ded1686736d,
         type: 3}
       propertyPath: healthSlider
       value: 
       objectReference: {fileID: 727114381}
+    - target: {fileID: 5966176092580221871, guid: efa5ebfaf5ee51a419e12ded1686736d,
+        type: 3}
+      propertyPath: currentHealth
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efa5ebfaf5ee51a419e12ded1686736d, type: 3}
 --- !u!1 &1323880568
