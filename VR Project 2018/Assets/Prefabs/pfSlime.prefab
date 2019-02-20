@@ -64,7 +64,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4549360038686097269}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: pfSlime
   m_TagString: Untagged
   m_Icon: {fileID: 0}

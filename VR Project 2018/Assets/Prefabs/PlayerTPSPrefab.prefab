@@ -130,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rotationRange: {x: 0, y: 361}
-  rotationSpeed: 10
+  rotationSpeed: 4
   dampingTime: 0.2
   autoZeroVerticalOnMobile: 1
   autoZeroHorizontalOnMobile: 0
