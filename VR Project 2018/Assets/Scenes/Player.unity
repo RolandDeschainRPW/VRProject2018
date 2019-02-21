@@ -878,6 +878,11 @@ PrefabInstance:
       propertyPath: damageImage
       value: 
       objectReference: {fileID: 1885513019}
+    - target: {fileID: 5966176092580221871, guid: efa5ebfaf5ee51a419e12ded1686736d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6881949204970522139, guid: efa5ebfaf5ee51a419e12ded1686736d,
         type: 3}
       propertyPath: rotationSpeed

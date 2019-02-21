@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class MyPlayerPos : MonoBehaviour
 {
     private MyGameManagerScript gm;
-
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +19,12 @@ public class MyPlayerPos : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.R)) {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            Debug.Log("QUIT!");
+            Application.Quit();
         }
     }
 }
