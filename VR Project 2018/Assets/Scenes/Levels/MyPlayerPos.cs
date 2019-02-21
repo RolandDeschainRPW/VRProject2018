@@ -21,7 +21,7 @@ public class MyPlayerPos : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
 
-        if (Input.GetKeyDown(KeyCode.R))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             Debug.Log("QUIT!");
             Application.Quit();
