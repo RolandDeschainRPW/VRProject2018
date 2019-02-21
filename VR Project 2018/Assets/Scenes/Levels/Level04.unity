@@ -949,6 +949,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599bb78402cd6dc4dbdc1d80c4240649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkPointNum: 3
 --- !u!65 &536882745
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1915,6 +1916,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 599bb78402cd6dc4dbdc1d80c4240649, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkPointNum: 4
 --- !u!65 &999886638
 BoxCollider:
   m_ObjectHideFlags: 0
