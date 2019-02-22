@@ -479,7 +479,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3271705736491172039}
   - component: {fileID: 3271705736491172038}
-  - component: {fileID: 3271705736491172037}
   m_Layer: 5
   m_Name: HealthSlider
   m_TagString: Untagged
@@ -557,22 +556,3 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Slider+SliderEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &3271705736491172037
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3271705736491172032}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 490ca6b6d5bc9b940b8250ffefb7552d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingHealth: 100
-  currentHealth: 0
-  healthSlider: {fileID: 3271705736491172038}
-  damageImage: {fileID: 0}
-  deathClip: {fileID: 0}
-  flashSpeed: 5
-  flashColour: {r: 1, g: 0, b: 0, a: 0.1}
