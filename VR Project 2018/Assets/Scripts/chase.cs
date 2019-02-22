@@ -19,7 +19,7 @@ public class chase : MonoBehaviour
     {
         Vector3 direction = player.position - this.transform.position;
         //float angle = Vector3.Angle(direction, this.transform.forward);
-        if (Vector3.Distance(player.position, this.transform.position) < 10 /*&& angle < 30*/)
+        if (Vector3.Distance(player.position, this.transform.position) < 100000 /*&& angle < 30*/)
         {
 
             direction.y = 0;
@@ -30,7 +30,7 @@ public class chase : MonoBehaviour
             anim.SetBool("isIdle", false);
             if (direction.magnitude > 1)
             {
-                this.transform.Translate(0, 0, 0.05f);
+                this.transform.Translate(0, 0, 0.04f);
                 anim.SetBool("isMoving", true);
                 anim.SetBool("isAttacking", false);
             }
