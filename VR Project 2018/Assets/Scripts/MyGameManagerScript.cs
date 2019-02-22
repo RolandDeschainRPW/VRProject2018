@@ -18,24 +18,11 @@ public class MyGameManagerScript : MonoBehaviour
             Destroy(gameObject);
         }
         
-        if (checkPointNum == 0 || checkPointNum == 1) {
-            Load("Player");
-            Load("Level01");
-            Load("Level02");
-        } else if (checkPointNum == 2) {
-            Load("Player");
-            Load("Level02");
-            Load("Level03");
-        } else if (checkPointNum >= 3 && checkPointNum <= 5) {
-            Load("Player");
-            Load("Level03");
-            Load("Level04");
-            Load("Level05");
-        } else if (checkPointNum == 6) {
-            Load("Player");
-            Load("Level05");
-            Load("Level06");
-        }
+        Load("Player");
+        Load("NewLevel01");
+        Load("NewLevel02");
+        Load("NewLevel03");
+        Load("NewLevel04");
     }
 
     public void Load(string sceneName)

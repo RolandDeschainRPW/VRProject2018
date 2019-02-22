@@ -128,6 +128,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7d722e34fb9788d45be2687aedb4682a, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7d722e34fb9788d45be2687aedb4682a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.0939865
@@ -197,7 +201,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 228585304}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +236,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 302326987}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: pfStomach
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +270,7 @@ GameObject:
   m_Component:
   - component: {fileID: 586039118}
   - component: {fileID: 586039119}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -335,7 +339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1048237059}
   - component: {fileID: 1048237060}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -409,6 +413,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: ea5ab6ad38db70c43b13116725b6c0c3, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ea5ab6ad38db70c43b13116725b6c0c3, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.083986
@@ -471,7 +479,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1354319175}
   - component: {fileID: 1354319176}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -540,7 +548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1815703000}
   - component: {fileID: 1815703001}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -609,7 +617,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2143322423}
   - component: {fileID: 2143322424}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Point Light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
