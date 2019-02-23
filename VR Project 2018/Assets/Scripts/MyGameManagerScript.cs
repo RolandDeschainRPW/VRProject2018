@@ -5,9 +5,19 @@ using UnityEngine;
 public class MyGameManagerScript : MonoBehaviour
 {
     public static MyGameManagerScript Instance{ set; get; }
-    public Vector3 lastCheckPointPos;
-    public int checkPointNum;
+    /*
+    // Start is called before the first frame update
+    void Start()
+    {
 
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
+    */
     private void Awake()
     {
         if (Instance == null) {
