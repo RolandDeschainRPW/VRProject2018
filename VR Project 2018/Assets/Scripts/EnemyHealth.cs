@@ -56,6 +56,11 @@ public class EnemyHealth : MonoBehaviour
         }
     }
 
+    public void fallDeath()
+    {
+        currentHealth = -1;
+        Death();
+    }
 
     void Death ()
     {

@@ -76,6 +76,11 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    public void fallDeath()
+    {
+        currentHealth = -1;
+        Death();
+    }
 
     void Death()
     {
