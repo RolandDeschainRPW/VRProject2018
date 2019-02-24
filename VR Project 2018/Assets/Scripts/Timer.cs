@@ -39,6 +39,7 @@ public class Timer : MonoBehaviour
     public void finish()
     {
         finished = true;
+        timerText.text = "";
     }
 
     public void beginTimer(string levelName)
