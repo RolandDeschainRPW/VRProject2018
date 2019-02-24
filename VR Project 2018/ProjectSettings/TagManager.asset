@@ -6,6 +6,9 @@ TagManager:
   tags:
   - GM
   - Shootable
+  - StomachUnlockable
+  - LiverUnlockable
+  - HeartUnlockable
   layers:
   - Default
   - TransparentFX
