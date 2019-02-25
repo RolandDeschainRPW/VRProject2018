@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - GM
+  - Shootable
+  - StomachUnlockable
+  - LiverUnlockable
+  - HeartUnlockable
   layers:
   - Default
   - TransparentFX
@@ -15,11 +19,11 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - Tutorial
+  - 
   - Stomach
-  - MiddleVein
+  - Vein
   - Liver
-  - PreFinalVein
+  - 
   - Heart
   - Shootable
   - 
