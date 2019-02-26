@@ -33,6 +33,8 @@ namespace CompleteProject
                 {
                     Scene loadedLevel = SceneManager.GetActiveScene();
                     SceneManager.LoadScene(loadedLevel.buildIndex);
+                    GameObject.FindGameObjectWithTag("GM").GetComponent<MyGameManagerScript>().setGameOverState();
+                    GameObject.FindGameObjectWithTag("GM").GetComponent<MyGameManagerScript>().Unlock();
                 }
             }
         }
