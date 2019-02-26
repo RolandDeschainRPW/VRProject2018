@@ -447,10 +447,12 @@ Transform:
   - {fileID: 1052192053}
   - {fileID: 218451706}
   - {fileID: 228585304}
+  - {fileID: 379998890}
+  - {fileID: 490756192}
+  - {fileID: 1037225277}
   - {fileID: 1709055199}
   - {fileID: 679844695}
   - {fileID: 1086623140}
-  - {fileID: 496708498}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -464,13 +466,14 @@ GameObject:
   m_Component:
   - component: {fileID: 379998890}
   - component: {fileID: 379998889}
+  - component: {fileID: 379998891}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: StomachSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &379998889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -478,7 +481,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379998888}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfb381d0de8f12f4b95391fed09c721e, type: 3}
   m_Name: 
@@ -486,9 +489,8 @@ MonoBehaviour:
   enemies:
   - {fileID: 4549360038686097259, guid: 84fd9d33b3a777648a06a255406efe95, type: 3}
   spawnValues: {x: 2, y: 0, z: 2}
-  spawnWait: 0
-  spawnMostWait: 2
-  spawnLeastWait: 0.5
+  spawnMostWait: 10
+  spawnLeastWait: 2.5
   startWait: 1
   stop: 0
 --- !u!4 &379998890
@@ -499,13 +501,29 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379998888}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -19.466938, y: -4.0203123, z: -74.87953}
+  m_LocalPosition: {x: -5.9160137, y: 9.27, z: -22.749962}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 496708498}
-  m_RootOrder: 0
+  m_Father: {fileID: 302326987}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &496708497
+--- !u!70 &379998891
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379998888}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.5, y: 1}
+  m_Direction: 0
+--- !u!1 &490756191
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -513,44 +531,48 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 496708498}
-  - component: {fileID: 496708499}
+  - component: {fileID: 490756192}
+  - component: {fileID: 490756193}
   m_Layer: 0
-  m_Name: Spawners
-  m_TagString: StomachSpawnersSet
+  m_Name: Spawner (1)
+  m_TagString: StomachSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &496708498
+--- !u!4 &490756192
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496708497}
+  m_GameObject: {fileID: 490756191}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.550925, y: 12.6239, z: 52.129566}
+  m_LocalPosition: {x: 23.4, y: 8.603588, z: -26.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 379998890}
+  m_Children: []
   m_Father: {fileID: 302326987}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &496708499
+--- !u!114 &490756193
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 496708497}
-  m_Enabled: 1
+  m_GameObject: {fileID: 490756191}
+  m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47755da4115cf764db4cae77a833374f, type: 3}
+  m_Script: {fileID: 11500000, guid: bfb381d0de8f12f4b95391fed09c721e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawners:
-  - {fileID: 379998888}
+  enemies:
+  - {fileID: 4549360038686097259, guid: 84fd9d33b3a777648a06a255406efe95, type: 3}
+  spawnValues: {x: 2, y: 0, z: 2}
+  spawnMostWait: 10
+  spawnLeastWait: 2.5
+  startWait: 1
+  stop: 0
 --- !u!1 &586039117
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,7 +954,7 @@ Transform:
   - {fileID: 840735903}
   - {fileID: 219497400}
   m_Father: {fileID: 302326987}
-  m_RootOrder: 4
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &697240015
 PrefabInstance:
@@ -1447,6 +1469,56 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 14
   m_Mesh: {fileID: 4300000, guid: fec52ddeae99a0745bc188805ff2c7c1, type: 3}
+--- !u!1 &1037225276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037225277}
+  - component: {fileID: 1037225279}
+  m_Layer: 0
+  m_Name: Spawner (2)
+  m_TagString: StomachSpawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1037225277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037225276}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 26.7, y: 8.603588, z: -9.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 302326987}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1037225279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037225276}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb381d0de8f12f4b95391fed09c721e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 4549360038686097259, guid: 84fd9d33b3a777648a06a255406efe95, type: 3}
+  spawnValues: {x: 2, y: 0, z: 2}
+  spawnMostWait: 10
+  spawnLeastWait: 2.5
+  startWait: 1
+  stop: 0
 --- !u!1001 &1052192052
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1537,7 +1609,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1086623140
 Transform:
   m_ObjectHideFlags: 0
@@ -1551,7 +1623,7 @@ Transform:
   m_Children:
   - {fileID: 2055515739}
   m_Father: {fileID: 302326987}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1118390839
 GameObject:
@@ -2415,7 +2487,7 @@ Transform:
   - {fileID: 606977321}
   - {fileID: 1134618028}
   m_Father: {fileID: 302326987}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1737839723
 GameObject:
