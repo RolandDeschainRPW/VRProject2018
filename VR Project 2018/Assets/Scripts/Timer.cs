@@ -28,6 +28,7 @@ public class Timer : MonoBehaviour
 
         timerText.text = levelName + minutes + ":" + seconds;
 
+
         // If we reach 2 minutes, the timer stops
         if ((int)t / 60 == 2)
         {

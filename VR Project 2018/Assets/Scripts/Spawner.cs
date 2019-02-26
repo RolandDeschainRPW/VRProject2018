@@ -6,13 +6,13 @@ public class Spawner : MonoBehaviour
 {
     public GameObject[] enemies;
     public Vector3 spawnValues;
-    public float spawnWait;
     public float spawnMostWait;
     public float spawnLeastWait;
     public int startWait;
     public bool stop;
 
     private int randEnemy;
+    private float spawnWait;
 
     // Start is called before the first frame update
     void Start()
