@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class MyGameManagerScript : MonoBehaviour
 {
@@ -46,7 +47,7 @@ public class MyGameManagerScript : MonoBehaviour
         } else {
             Destroy(gameObject);
         }
-        
+
         Load("Player");
         Load("NewLevel01");
         Load("NewLevel02");
@@ -74,24 +75,5 @@ public class MyGameManagerScript : MonoBehaviour
     public void setGameOverState()
     {
         level = GAME_OVER;
-    }
-
-
-
-    public void deactivateSpawners()
-    {
-        GameObject[] gos = null;
-        if (level == STOMACH) {
-            gos = GameObject.FindGameObjectsWithTag("StomachSpawner");
-        } else if (level == LIVER) {
-            gos = GameObject.FindGameObjectsWithTag("LiverSpawner");
-        } else if (level == HEART) {
-            gos = GameObject.FindGameObjectsWithTag("HeartSpawner");
-        }
-        
-        foreach (GameObject go in gos)
-        {
-            go.SetActive(false);
-        }
     }
 }
