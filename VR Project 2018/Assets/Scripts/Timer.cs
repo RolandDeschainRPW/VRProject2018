@@ -24,8 +24,8 @@ public class Timer : MonoBehaviour
         
         float t = Time.time - startTime;
 
-        // if 150 seconds are passed, is time to deactivate the spawners!
-        if (t >= 150 && !spawnersDeactivated)
+        // if 100 seconds are passed, is time to deactivate the spawners!
+        if (t >= 100 && !spawnersDeactivated)
         {
             GameObject.FindGameObjectWithTag("GM").GetComponent<MyGameManagerScript>().deactivateSpawners();
             spawnersDeactivated = true;

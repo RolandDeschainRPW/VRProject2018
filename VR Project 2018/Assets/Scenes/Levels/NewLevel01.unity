@@ -488,7 +488,7 @@ MonoBehaviour:
   enemies:
   - {fileID: 4549360038686097259, guid: 84fd9d33b3a777648a06a255406efe95, type: 3}
   spawnValues: {x: 2, y: 0, z: 2}
-  spawnMostWait: 8
+  spawnMostWait: 10
   spawnLeastWait: 2.5
   startWait: 1
   stop: 0
@@ -518,7 +518,7 @@ GameObject:
   - component: {fileID: 490756193}
   m_Layer: 0
   m_Name: Spawner (1)
-  m_TagString: Shootable
+  m_TagString: StomachSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -544,7 +544,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490756191}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfb381d0de8f12f4b95391fed09c721e, type: 3}
   m_Name: 
@@ -552,7 +552,7 @@ MonoBehaviour:
   enemies:
   - {fileID: 4549360038686097259, guid: 84fd9d33b3a777648a06a255406efe95, type: 3}
   spawnValues: {x: 2, y: 0, z: 2}
-  spawnMostWait: 8
+  spawnMostWait: 10
   spawnLeastWait: 2.5
   startWait: 1
   stop: 0
@@ -1464,7 +1464,7 @@ GameObject:
   - component: {fileID: 1037225279}
   m_Layer: 0
   m_Name: Spawner (2)
-  m_TagString: Shootable
+  m_TagString: StomachSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1490,7 +1490,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1037225276}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfb381d0de8f12f4b95391fed09c721e, type: 3}
   m_Name: 
@@ -1498,7 +1498,7 @@ MonoBehaviour:
   enemies:
   - {fileID: 4549360038686097259, guid: 84fd9d33b3a777648a06a255406efe95, type: 3}
   spawnValues: {x: 2, y: 0, z: 2}
-  spawnMostWait: 8
+  spawnMostWait: 10
   spawnLeastWait: 2.5
   startWait: 1
   stop: 0
@@ -1592,7 +1592,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1086623140
 Transform:
   m_ObjectHideFlags: 0
