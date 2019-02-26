@@ -486,7 +486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemies:
   - {fileID: 4549360038686097259, guid: 84fd9d33b3a777648a06a255406efe95, type: 3}
-  spawnValues: {x: 2, y: 0, z: 2}
+  spawnValues: {x: 0, y: 0, z: 0}
   spawnMostWait: 10
   spawnLeastWait: 2.5
   startWait: 1
@@ -566,7 +566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemies:
   - {fileID: 4549360038686097259, guid: 84fd9d33b3a777648a06a255406efe95, type: 3}
-  spawnValues: {x: 2, y: 0, z: 2}
+  spawnValues: {x: 0, y: 0, z: 0}
   spawnMostWait: 10
   spawnLeastWait: 2.5
   startWait: 1
@@ -1562,7 +1562,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemies:
   - {fileID: 4549360038686097259, guid: 84fd9d33b3a777648a06a255406efe95, type: 3}
-  spawnValues: {x: 2, y: 0, z: 2}
+  spawnValues: {x: 0, y: 0, z: 0}
   spawnMostWait: 10
   spawnLeastWait: 2.5
   startWait: 1
