@@ -113,6 +113,71 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &133300796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 133300799}
+  - component: {fileID: 133300798}
+  - component: {fileID: 133300797}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: LiverSpawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!136 &133300797
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133300796}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &133300798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133300796}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb381d0de8f12f4b95391fed09c721e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 2934053145457189683, guid: d21c9c45ffc33a84e95f1c21c807d093, type: 3}
+  spawnValues: {x: 2, y: 0, z: 2}
+  spawnMostWait: 2
+  spawnLeastWait: 1
+  startWait: 1
+  stop: 0
+--- !u!4 &133300799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133300796}
+  m_LocalRotation: {x: -0, y: 0.12192263, z: -0, w: 0.99253964}
+  m_LocalPosition: {x: -7, y: -0.51, z: 3.7000008}
+  m_LocalScale: {x: 0.76960987, y: 1, z: 0.71915644}
+  m_Children: []
+  m_Father: {fileID: 1374151727}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 14.0060005, z: 0}
 --- !u!1 &161689087
 GameObject:
   m_ObjectHideFlags: 0
@@ -20683,6 +20748,7 @@ Transform:
   - {fileID: 298429560}
   - {fileID: 1910436454}
   - {fileID: 289792421}
+  - {fileID: 133300799}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
