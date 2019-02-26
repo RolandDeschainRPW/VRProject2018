@@ -19603,7 +19603,7 @@ GameObject:
   - component: {fileID: 473554984}
   m_Layer: 0
   m_Name: Spawners
-  m_TagString: Untagged
+  m_TagString: HeartSpawnersSet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49741,7 +49741,7 @@ GameObject:
   - component: {fileID: 1638388211}
   m_Layer: 0
   m_Name: Spawner (2)
-  m_TagString: LiverSpawner
+  m_TagString: HeartSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49806,7 +49806,7 @@ GameObject:
   - component: {fileID: 1710663710}
   m_Layer: 0
   m_Name: Spawner
-  m_TagString: LiverSpawner
+  m_TagString: HeartSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -49975,7 +49975,7 @@ GameObject:
   - component: {fileID: 1994108292}
   m_Layer: 0
   m_Name: Spawner (1)
-  m_TagString: LiverSpawner
+  m_TagString: HeartSpawner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
