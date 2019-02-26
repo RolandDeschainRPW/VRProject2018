@@ -45,29 +45,29 @@ public class Timer : MonoBehaviour
         string minutes = ((int)t / 60).ToString();
         string seconds = (t % 60).ToString("f0");
 
-        timerText.text = levelName + minutes + ":" + seconds;
+        timerText.text = levelName + "\n" + minutes + ":" + seconds;
 
 
         // If we reach 2 minutes, the timer stops
         if ((int)t / 60 == 2)
         {
-            finished = true;
+            finish("Go to the next level!");
             GameObject.FindGameObjectWithTag("GM").GetComponent<MyGameManagerScript>().Unlock();
         }
     }
 
-    public void finish()
+    public void finish(string text)
     {
         finished = true;
         startTimeSet = false;
         deactivateSpawners();
         beginCounter = 3.0f;
-        timerText.text = "";
+        timerText.text = text;
     }
 
     public void beginTimer(string levelName)
     {
-        this.levelName = levelName + "\n";
+        this.levelName = levelName;
         finished = false;
     }
 
@@ -83,11 +83,11 @@ public class Timer : MonoBehaviour
     private string findSpawnersSet()
     {
         string set = null;
-        if (levelName.Trim().Equals("Stomach", System.StringComparison.OrdinalIgnoreCase)) {
+        if (levelName.Equals("Stomach", System.StringComparison.OrdinalIgnoreCase)) {
             set = "StomachSpawnersSet";
-        } else if (levelName.Trim().Equals("Liver", System.StringComparison.OrdinalIgnoreCase)) {
+        } else if (levelName.Equals("Liver", System.StringComparison.OrdinalIgnoreCase)) {
             set = "LiverSpawnersSet";
-        } else if (levelName.Trim().Equals("Heart", System.StringComparison.OrdinalIgnoreCase)) {
+        } else if (levelName.Equals("Heart", System.StringComparison.OrdinalIgnoreCase)) {
             set = "HeartSpawnersSet";
         }
         return set;

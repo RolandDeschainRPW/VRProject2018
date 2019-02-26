@@ -85,7 +85,7 @@ public class PlayerHealth : MonoBehaviour
     void Death()
     {
         // Stops the timer
-        this.GetComponent<Timer>().finish();
+        this.GetComponent<Timer>().finish("");
 
         // Set the death flag so this function won't be called again.
         isDead = true;
