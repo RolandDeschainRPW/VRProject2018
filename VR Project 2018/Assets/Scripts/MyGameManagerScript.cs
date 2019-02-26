@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MyGameManagerScript : MonoBehaviour
 {
+    public const int GAME_OVER = -1;
     public const int STOMACH = 0;
     public const int LIVER = 1;
     public const int HEART = 2;
@@ -29,6 +30,8 @@ public class MyGameManagerScript : MonoBehaviour
             GameObject.FindGameObjectWithTag("LiverUnlockable").SetActive(false);
         } else if (level == HEART) {
             GameObject.FindGameObjectWithTag("HeartUnlockable").SetActive(false);
+        } else if (level == GAME_OVER) {
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Timer>().beginTimer("Stomach");
         }
         level++;
         unlock = false;
@@ -66,5 +69,10 @@ public class MyGameManagerScript : MonoBehaviour
     public void Unlock()
     {
         unlock = true;
+    }
+
+    public void setGameOverState()
+    {
+        level = GAME_OVER;
     }
 }
