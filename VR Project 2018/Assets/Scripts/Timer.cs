@@ -8,6 +8,7 @@ public class Timer : MonoBehaviour
     public TextMeshProUGUI timerText;
     private float startTime;
     private bool finished = true;
+    private bool spawnersDeactivated = false;
     private string levelName;
 
     // Start is called before the first frame update
@@ -22,6 +23,13 @@ public class Timer : MonoBehaviour
         if (finished) return;
         
         float t = Time.time - startTime;
+
+        // if 150 seconds are passed, is time to deactivate the spawners!
+        if (t >= 150 && !spawnersDeactivated)
+        {
+            GameObject.FindGameObjectWithTag("GM").GetComponent<MyGameManagerScript>().deactivateSpawners();
+            spawnersDeactivated = true;
+        }
 
         string minutes = ((int)t / 60).ToString();
         string seconds = (t % 60).ToString("f0");
@@ -47,5 +55,6 @@ public class Timer : MonoBehaviour
         startTime = Time.time;
         this.levelName = levelName + "\n";
         finished = false;
+        spawnersDeactivated = false;
     }
 }

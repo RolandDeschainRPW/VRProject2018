@@ -75,4 +75,23 @@ public class MyGameManagerScript : MonoBehaviour
     {
         level = GAME_OVER;
     }
+
+
+
+    public void deactivateSpawners()
+    {
+        GameObject[] gos = null;
+        if (level == STOMACH) {
+            gos = GameObject.FindGameObjectsWithTag("StomachSpawner");
+        } else if (level == LIVER) {
+            gos = GameObject.FindGameObjectsWithTag("LiverSpawner");
+        } else if (level == HEART) {
+            gos = GameObject.FindGameObjectsWithTag("HeartSpawner");
+        }
+        
+        foreach (GameObject go in gos)
+        {
+            go.SetActive(false);
+        }
+    }
 }
