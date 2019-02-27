@@ -49949,7 +49949,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1638388210}
   - component: {fileID: 1638388212}
-  - component: {fileID: 1638388211}
   m_Layer: 0
   m_Name: Spawner (2)
   m_TagString: HeartSpawner
@@ -49971,20 +49970,6 @@ Transform:
   m_Father: {fileID: 473554983}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 14.0060005, z: 0}
---- !u!136 &1638388211
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1638388209}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1638388212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50014,7 +49999,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1710663709}
   - component: {fileID: 1710663711}
-  - component: {fileID: 1710663710}
   m_Layer: 0
   m_Name: Spawner
   m_TagString: HeartSpawner
@@ -50036,20 +50020,6 @@ Transform:
   m_Father: {fileID: 473554983}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 14.0060005, z: 0}
---- !u!136 &1710663710
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1710663708}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1710663711
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -50252,7 +50222,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1994108291}
   - component: {fileID: 1994108293}
-  - component: {fileID: 1994108292}
   m_Layer: 0
   m_Name: Spawner (1)
   m_TagString: HeartSpawner
@@ -50274,20 +50243,6 @@ Transform:
   m_Father: {fileID: 473554983}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 14.0060005, z: 0}
---- !u!136 &1994108292
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1994108290}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  m_Radius: 0.5
-  m_Height: 1
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1994108293
 MonoBehaviour:
   m_ObjectHideFlags: 0
