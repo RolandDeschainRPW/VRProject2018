@@ -5954,12 +5954,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4260487967475715111}
   - component: {fileID: 886053190727958628}
-  - component: {fileID: 2727126742261728635}
+  - component: {fileID: 4416114911996442244}
   - component: {fileID: 5538628061362309371}
   - component: {fileID: 4720541003913118555}
   - component: {fileID: 5803791920095208753}
   - component: {fileID: 4512959141995793392}
   - component: {fileID: 7186047806470436701}
+  - component: {fileID: 2277915882855111958}
   m_Layer: 15
   m_Name: pfInsect
   m_TagString: Shootable
@@ -6003,7 +6004,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2727126742261728635
+--- !u!114 &4416114911996442244
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6012,10 +6013,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5732950518128594469}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c79f3684648ce7b43bd789a12c02da99, type: 3}
+  m_Script: {fileID: 11500000, guid: e580250f07d337b47a5268129b363487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 1.8
+  speed: 0.038
+  InsectRigibody: {fileID: 2277915882855111958}
 --- !u!114 &5538628061362309371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6028,7 +6030,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c09103e5a06fbc4484deca51c23ac93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingHealth: 100
+  startingHealth: 1000
   currentHealth: 0
   sinkSpeed: 2.5
   deathClip: {fileID: 8300000, guid: 6a1823166a2e98b4789ca99f9fa7f197, type: 3}
@@ -6169,6 +6171,22 @@ CapsuleCollider:
   m_Height: 4.02
   m_Direction: 1
   m_Center: {x: 0.28, y: 1.8, z: 0.51}
+--- !u!54 &2277915882855111958
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5732950518128594469}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &5759717778611422753
 GameObject:
   m_ObjectHideFlags: 0

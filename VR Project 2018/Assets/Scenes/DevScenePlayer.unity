@@ -138,8 +138,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860909481}
   serializedVersion: 2
-  m_Mass: 742.4
-  m_Drag: 5.53
+  m_Mass: 1
+  m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 1
   m_IsKinematic: 0
@@ -230,6 +230,26 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d21c9c45ffc33a84e95f1c21c807d093, type: 3}
+--- !u!1 &1142695412 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4817291869094516427, guid: 87727f27de682b14ebd296bb5b1d17a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1798500122}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &1142695414
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142695412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.64
+  m_Height: 2.48
+  m_Direction: 1
+  m_Center: {x: -1.04, y: -0.77, z: -0.39}
 --- !u!1 &1231297912
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,19 +732,40 @@ PrefabInstance:
     - target: {fileID: 2727126742261728635, guid: 87727f27de682b14ebd296bb5b1d17a5,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2727126742261728635, guid: 87727f27de682b14ebd296bb5b1d17a5,
+        type: 3}
+      propertyPath: speed
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5538628061362309371, guid: 87727f27de682b14ebd296bb5b1d17a5,
         type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5538628061362309371, guid: 87727f27de682b14ebd296bb5b1d17a5,
+        type: 3}
+      propertyPath: startingHealth
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 4720541003913118555, guid: 87727f27de682b14ebd296bb5b1d17a5,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4720541003913118555, guid: 87727f27de682b14ebd296bb5b1d17a5,
+        type: 3}
+      propertyPath: attackDamage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186047806470436701, guid: 87727f27de682b14ebd296bb5b1d17a5,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
   m_SourcePrefab: {fileID: 100100000, guid: 87727f27de682b14ebd296bb5b1d17a5, type: 3}
 --- !u!1001 &8721059232795608795
 PrefabInstance:
@@ -741,8 +782,18 @@ PrefabInstance:
     - target: {fileID: 6881949204007279520, guid: efa5ebfaf5ee51a419e12ded1686736d,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5966176092580221871, guid: efa5ebfaf5ee51a419e12ded1686736d,
+        type: 3}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1530871878}
+    - target: {fileID: 5966176092580221871, guid: efa5ebfaf5ee51a419e12ded1686736d,
+        type: 3}
+      propertyPath: damageImage
+      value: 
+      objectReference: {fileID: 1530871877}
     - target: {fileID: 6881949204007279523, guid: efa5ebfaf5ee51a419e12ded1686736d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -751,7 +802,7 @@ PrefabInstance:
     - target: {fileID: 6881949204007279523, guid: efa5ebfaf5ee51a419e12ded1686736d,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 9.032959
+      value: 10.25
       objectReference: {fileID: 0}
     - target: {fileID: 6881949204007279523, guid: efa5ebfaf5ee51a419e12ded1686736d,
         type: 3}
@@ -798,15 +849,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5966176092580221871, guid: efa5ebfaf5ee51a419e12ded1686736d,
-        type: 3}
-      propertyPath: healthSlider
-      value: 
-      objectReference: {fileID: 1530871878}
-    - target: {fileID: 5966176092580221871, guid: efa5ebfaf5ee51a419e12ded1686736d,
-        type: 3}
-      propertyPath: damageImage
-      value: 
-      objectReference: {fileID: 1530871877}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efa5ebfaf5ee51a419e12ded1686736d, type: 3}
