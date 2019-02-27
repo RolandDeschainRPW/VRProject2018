@@ -5,7 +5,8 @@ using System.Collections;
 public class PlayerHealth : MonoBehaviour
 {
     public int startingHealth = 100;                            // The amount of health the player starts the game with.
-    public int currentHealth;                                   // The current health the player has.
+    public int currentHealth;
+  //  public int MaxHealth = 100;// The current health the player has.
     public Slider healthSlider;                                 // Reference to the UI's health bar.
     public Image damageImage;                                   // Reference to an image to flash on the screen on being hurt.
     public AudioClip deathClip;                                 // The audio clip to play when the player dies.
@@ -74,6 +75,18 @@ public class PlayerHealth : MonoBehaviour
             // ... it should die.
             Death();
         }
+    }
+    public void Restore(int amount)
+    {
+        currentHealth += amount;
+        healthSlider.value = currentHealth;
+        if (currentHealth >= startingHealth)
+
+        {
+            currentHealth = startingHealth;
+           
+        }
+        healthSlider.value = currentHealth;
     }
 
     public void fallDeath()

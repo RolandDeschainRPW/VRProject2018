@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -462,6 +462,16 @@ PrefabInstance:
       propertyPath: playerHealth
       value: 
       objectReference: {fileID: 665608515}
+    - target: {fileID: 1154699813996487516, guid: db8de13f09b78e2488a6eecb18534247,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1154699813996487516, guid: db8de13f09b78e2488a6eecb18534247,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: db8de13f09b78e2488a6eecb18534247, type: 3}
 --- !u!114 &1530871877 stripped
@@ -592,6 +602,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerTPSPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 5966176092580221871, guid: efa5ebfaf5ee51a419e12ded1686736d,
+        type: 3}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1530871878}
+    - target: {fileID: 5966176092580221871, guid: efa5ebfaf5ee51a419e12ded1686736d,
+        type: 3}
+      propertyPath: damageImage
+      value: 
+      objectReference: {fileID: 1530871877}
     - target: {fileID: 6881949204007279523, guid: efa5ebfaf5ee51a419e12ded1686736d,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -647,15 +667,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5966176092580221871, guid: efa5ebfaf5ee51a419e12ded1686736d,
-        type: 3}
-      propertyPath: healthSlider
-      value: 
-      objectReference: {fileID: 1530871878}
-    - target: {fileID: 5966176092580221871, guid: efa5ebfaf5ee51a419e12ded1686736d,
-        type: 3}
-      propertyPath: damageImage
-      value: 
-      objectReference: {fileID: 1530871877}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efa5ebfaf5ee51a419e12ded1686736d, type: 3}

@@ -20,4 +20,7 @@ public class Oxygen_decr : MonoBehaviour
         Ox -= 0.01f;
         ossigeno.value = Ox;
     }
+   
+
+
 }
