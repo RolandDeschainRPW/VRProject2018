@@ -9,6 +9,12 @@ TagManager:
   - StomachUnlockable
   - LiverUnlockable
   - HeartUnlockable
+  - StomachSpawner
+  - LiverSpawner
+  - HeartSpawner
+  - StomachSpawnersSet
+  - LiverSpawnersSet
+  - HeartSpawnersSet
   layers:
   - Default
   - TransparentFX

@@ -4895,7 +4895,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &63802036
 Transform:
   m_ObjectHideFlags: 0
@@ -19591,6 +19591,56 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472903179}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &473554982
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 473554983}
+  - component: {fileID: 473554984}
+  m_Layer: 0
+  m_Name: Spawners
+  m_TagString: HeartSpawnersSet
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &473554983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473554982}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -87.24952, y: 33.641876, z: -9.005245}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1710663709}
+  - {fileID: 1994108291}
+  - {fileID: 1638388210}
+  m_Father: {fileID: 1297654386}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &473554984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473554982}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47755da4115cf764db4cae77a833374f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawners:
+  - {fileID: 1710663708}
+  - {fileID: 1994108290}
+  - {fileID: 1638388209}
 --- !u!1 &497354688
 GameObject:
   m_ObjectHideFlags: 0
@@ -25786,6 +25836,7 @@ Transform:
   - {fileID: 2113427089}
   - {fileID: 1548540798}
   - {fileID: 63802036}
+  - {fileID: 473554983}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -49661,7 +49712,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1548540798
 Transform:
   m_ObjectHideFlags: 0
@@ -49677,6 +49728,136 @@ Transform:
   m_Father: {fileID: 1297654386}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!1 &1638388209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1638388210}
+  - component: {fileID: 1638388212}
+  - component: {fileID: 1638388211}
+  m_Layer: 0
+  m_Name: Spawner (2)
+  m_TagString: HeartSpawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1638388210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638388209}
+  m_LocalRotation: {x: -0, y: 0.12192263, z: -0, w: 0.99253964}
+  m_LocalPosition: {x: 54.93, y: 4.65, z: 78.54}
+  m_LocalScale: {x: 0.76960987, y: 1, z: 0.7191599}
+  m_Children: []
+  m_Father: {fileID: 473554983}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 14.0060005, z: 0}
+--- !u!136 &1638388211
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638388209}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1638388212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1638388209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb381d0de8f12f4b95391fed09c721e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 2934053145457189683, guid: d21c9c45ffc33a84e95f1c21c807d093, type: 3}
+  spawnValues: {x: 0, y: 0, z: 0}
+  spawnMostWait: 2
+  spawnLeastWait: 1
+  startWait: 1
+  stop: 0
+--- !u!1 &1710663708
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1710663709}
+  - component: {fileID: 1710663711}
+  - component: {fileID: 1710663710}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: HeartSpawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1710663709
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710663708}
+  m_LocalRotation: {x: -0, y: 0.12192263, z: -0, w: 0.99253964}
+  m_LocalPosition: {x: 45.2, y: 4.32, z: 97.21}
+  m_LocalScale: {x: 0.76960987, y: 1, z: 0.7191599}
+  m_Children: []
+  m_Father: {fileID: 473554983}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 14.0060005, z: 0}
+--- !u!136 &1710663710
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710663708}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1710663711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710663708}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb381d0de8f12f4b95391fed09c721e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 2934053145457189683, guid: d21c9c45ffc33a84e95f1c21c807d093, type: 3}
+  spawnValues: {x: 0, y: 0, z: 0}
+  spawnMostWait: 2
+  spawnLeastWait: 1
+  startWait: 1
+  stop: 0
 --- !u!1 &1837228978
 GameObject:
   m_ObjectHideFlags: 0
@@ -49781,6 +49962,71 @@ Transform:
   m_Father: {fileID: 533436184}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 217.72899, z: 0}
+--- !u!1 &1994108290
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1994108291}
+  - component: {fileID: 1994108293}
+  - component: {fileID: 1994108292}
+  m_Layer: 0
+  m_Name: Spawner (1)
+  m_TagString: HeartSpawner
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1994108291
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994108290}
+  m_LocalRotation: {x: -0, y: 0.12192263, z: -0, w: 0.99253964}
+  m_LocalPosition: {x: 60.47, y: 4.53, z: 95.51}
+  m_LocalScale: {x: 0.76960987, y: 1, z: 0.7191599}
+  m_Children: []
+  m_Father: {fileID: 473554983}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 14.0060005, z: 0}
+--- !u!136 &1994108292
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994108290}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1994108293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1994108290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfb381d0de8f12f4b95391fed09c721e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 2934053145457189683, guid: d21c9c45ffc33a84e95f1c21c807d093, type: 3}
+  spawnValues: {x: 0, y: 0, z: 0}
+  spawnMostWait: 2
+  spawnLeastWait: 1
+  startWait: 1
+  stop: 0
 --- !u!1 &2113427088
 GameObject:
   m_ObjectHideFlags: 0

@@ -265,8 +265,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 55
+  m_fontSizeBase: 55
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 489.0976, y: 0, z: 478.9206, w: 457.9301}
+  m_margin: {x: 320.0976, y: 0, z: 309.9206, w: 457.9301}
   m_textInfo:
     textComponent: {fileID: 452492268}
     characterCount: 5
@@ -454,6 +454,11 @@ PrefabInstance:
       propertyPath: speed
       value: 3.82
       objectReference: {fileID: 0}
+    - target: {fileID: 6881949203505881510, guid: efa5ebfaf5ee51a419e12ded1686736d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efa5ebfaf5ee51a419e12ded1686736d, type: 3}
 --- !u!1 &1292693106 stripped
@@ -583,7 +588,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1292693109}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9f7519bd7e389e1498393085131c1e24, type: 3}
   m_Name: 

@@ -3,6 +3,7 @@ using System.Collections;
 
 public class chase : MonoBehaviour
 {
+    public float Speed = 1;
 
     private Transform player;
     private Animator anim;
@@ -30,7 +31,7 @@ public class chase : MonoBehaviour
             anim.SetBool("isIdle", false);
             if (direction.magnitude > 1)
             {
-                this.transform.Translate(0, 0, 0.04f);
+                this.transform.Translate(0, 0, Speed * 0.03f);
                 anim.SetBool("isMoving", true);
                 anim.SetBool("isAttacking", false);
             }
