@@ -50,6 +50,7 @@ public class Timer : MonoBehaviour
 
         // If we reach 2 minutes, the timer stops
         if ((int)t / 60 == 2)
+        //if ((int)t == 15)    //TEST MODE
         {
             finish("Go to the next level!");
             GameObject.FindGameObjectWithTag("GM").GetComponent<MyGameManagerScript>().Unlock();

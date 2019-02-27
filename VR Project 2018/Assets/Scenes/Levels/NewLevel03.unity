@@ -160,8 +160,8 @@ MonoBehaviour:
   enemies:
   - {fileID: 2934053145457189683, guid: d21c9c45ffc33a84e95f1c21c807d093, type: 3}
   spawnValues: {x: 0, y: 0, z: 0}
-  spawnMostWait: 2
-  spawnLeastWait: 1
+  spawnMostWait: 10
+  spawnLeastWait: 5
   startWait: 1
   stop: 0
 --- !u!4 &133300799
@@ -26133,8 +26133,8 @@ MonoBehaviour:
   enemies:
   - {fileID: 2934053145457189683, guid: d21c9c45ffc33a84e95f1c21c807d093, type: 3}
   spawnValues: {x: 0, y: 0, z: 0}
-  spawnMostWait: 2
-  spawnLeastWait: 1
+  spawnMostWait: 10
+  spawnLeastWait: 5
   startWait: 1
   stop: 0
 --- !u!1 &1910436453
@@ -26489,7 +26489,7 @@ MonoBehaviour:
   enemies:
   - {fileID: 2934053145457189683, guid: d21c9c45ffc33a84e95f1c21c807d093, type: 3}
   spawnValues: {x: 0, y: 0, z: 0}
-  spawnMostWait: 2
-  spawnLeastWait: 1
+  spawnMostWait: 10
+  spawnLeastWait: 5
   startWait: 1
   stop: 0
