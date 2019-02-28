@@ -11,7 +11,7 @@ public class StartTimer : MonoBehaviour {
         if (activated) return;
         if (col.CompareTag("Player"))
         {
-            block.gameObject.SetActive(true);
+            if (block != null) block.gameObject.SetActive(true);
             GameObject.FindGameObjectWithTag("Player").GetComponent<Timer>().beginTimer(levelName);
             activated = true;
         }

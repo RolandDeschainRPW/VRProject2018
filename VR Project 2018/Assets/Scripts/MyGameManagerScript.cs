@@ -15,12 +15,6 @@ public class MyGameManagerScript : MonoBehaviour
     private int level = STOMACH;
     // TEST MODE
     //private int level = HEART;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        GameObject.FindGameObjectWithTag("Player").GetComponent<Timer>().beginTimer("Stomach");
-    }
     
     // Update is called once per frame
     void Update()
