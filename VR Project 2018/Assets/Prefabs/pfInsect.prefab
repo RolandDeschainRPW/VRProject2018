@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2409154505916378131}
   m_Layer: 15
   m_Name: upper_arm_L
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 9149107189261800515}
   m_Layer: 15
   m_Name: shin_L_003
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 2050609653063821953}
   m_Layer: 15
   m_Name: hips_013
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 343277224438863189}
   m_Layer: 15
   m_Name: upper_arm_R_001
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 3965512008436991303}
   m_Layer: 15
   m_Name: hips_009
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 4643047617452528791}
   m_Layer: 15
   m_Name: hips_016
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -199,7 +199,7 @@ GameObject:
   - component: {fileID: 1625671403148658906}
   m_Layer: 15
   m_Name: head
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 8592335621640436836}
   m_Layer: 15
   m_Name: hips_005
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -260,7 +260,7 @@ GameObject:
   - component: {fileID: 8282814740256275480}
   m_Layer: 15
   m_Name: hips_002
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -291,7 +291,7 @@ GameObject:
   - component: {fileID: 8740704149264685296}
   m_Layer: 15
   m_Name: upper_arm_R_003
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -322,7 +322,7 @@ GameObject:
   - component: {fileID: 7260171771008072602}
   m_Layer: 15
   m_Name: Insect
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5210,7 +5210,7 @@ GameObject:
   - component: {fileID: 3746696235106312424}
   m_Layer: 15
   m_Name: shin_L_005
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5240,7 +5240,7 @@ GameObject:
   - component: {fileID: 1079938730105642106}
   m_Layer: 15
   m_Name: upper_arm_R_004
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5271,7 +5271,7 @@ GameObject:
   - component: {fileID: 7571794013078016501}
   m_Layer: 15
   m_Name: thigh_L
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5302,7 +5302,7 @@ GameObject:
   - component: {fileID: 782370925478359690}
   m_Layer: 15
   m_Name: upper_arm_L_001
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5334,7 +5334,7 @@ GameObject:
   - component: {fileID: 7954221330419065901}
   m_Layer: 15
   m_Name: shin_R_003
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5366,7 +5366,7 @@ GameObject:
   - component: {fileID: 173828912995577281}
   m_Layer: 15
   m_Name: hips_019
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5397,7 +5397,7 @@ GameObject:
   - component: {fileID: 2248060693512654102}
   m_Layer: 15
   m_Name: hips_010
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5428,7 +5428,7 @@ GameObject:
   - component: {fileID: 8747982525699367840}
   m_Layer: 15
   m_Name: shoulder_R
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5459,7 +5459,7 @@ GameObject:
   - component: {fileID: 1673640441595331640}
   m_Layer: 15
   m_Name: shoulder_L
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5490,7 +5490,7 @@ GameObject:
   - component: {fileID: 9011022352251159173}
   m_Layer: 15
   m_Name: hips_008
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5521,7 +5521,7 @@ GameObject:
   - component: {fileID: 1526834131075866626}
   m_Layer: 15
   m_Name: hips_007
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5553,7 +5553,7 @@ GameObject:
   - component: {fileID: 3788676917129505818}
   m_Layer: 15
   m_Name: shin_R
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5584,7 +5584,7 @@ GameObject:
   - component: {fileID: 6155789192819432582}
   m_Layer: 15
   m_Name: shin_L
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5615,7 +5615,7 @@ GameObject:
   - component: {fileID: 6496274812843003617}
   m_Layer: 15
   m_Name: hips
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5648,7 +5648,7 @@ GameObject:
   - component: {fileID: 5405781903465895187}
   m_Layer: 15
   m_Name: upper_arm_L_004
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5679,7 +5679,7 @@ GameObject:
   - component: {fileID: 3021091590182780377}
   m_Layer: 15
   m_Name: hips_015
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5709,7 +5709,7 @@ GameObject:
   - component: {fileID: 8801270757837842355}
   m_Layer: 15
   m_Name: upper_arm_L_002
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5740,7 +5740,7 @@ GameObject:
   - component: {fileID: 2977880906025296158}
   m_Layer: 15
   m_Name: hips_021
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5770,7 +5770,7 @@ GameObject:
   - component: {fileID: 1803575128069051841}
   m_Layer: 15
   m_Name: hips_020
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5801,7 +5801,7 @@ GameObject:
   - component: {fileID: 1213037020795662282}
   m_Layer: 15
   m_Name: hips_018
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5832,7 +5832,7 @@ GameObject:
   - component: {fileID: 788414781664768168}
   m_Layer: 15
   m_Name: spine
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5863,7 +5863,7 @@ GameObject:
   - component: {fileID: 8860771629816520843}
   m_Layer: 15
   m_Name: upper_arm_L_003
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5893,7 +5893,7 @@ GameObject:
   - component: {fileID: 6527460178821888907}
   m_Layer: 15
   m_Name: hips_011
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5924,7 +5924,7 @@ GameObject:
   - component: {fileID: 6310733885061672441}
   m_Layer: 15
   m_Name: upper_arm_R
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6016,7 +6016,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e580250f07d337b47a5268129b363487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.038
+  speed: 0.022
   InsectRigibody: {fileID: 2277915882855111958}
 --- !u!114 &5538628061362309371
 MonoBehaviour:
@@ -6151,7 +6151,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5732950518128594469}
-  m_Material: {fileID: 13400000, guid: c2815a7ab32e42c4bb42f59caacb8ec1, type: 2}
+  m_Material: {fileID: 13400000, guid: e52fb17f9b1e7fd48b8955f1391d3688, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -6198,7 +6198,7 @@ GameObject:
   - component: {fileID: 4363519772683281578}
   m_Layer: 15
   m_Name: shin_R_001
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6230,7 +6230,7 @@ GameObject:
   - component: {fileID: 5931503297654391529}
   m_Layer: 15
   m_Name: metarig
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6262,7 +6262,7 @@ GameObject:
   - component: {fileID: 4733686294820124356}
   m_Layer: 15
   m_Name: hips_012
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6293,7 +6293,7 @@ GameObject:
   - component: {fileID: 4645808013995477411}
   m_Layer: 15
   m_Name: shin_L_001
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6325,7 +6325,7 @@ GameObject:
   - component: {fileID: 2676054578070128220}
   m_Layer: 15
   m_Name: hips_004
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6356,7 +6356,7 @@ GameObject:
   - component: {fileID: 7591358851415123304}
   m_Layer: 15
   m_Name: hips_003
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6387,7 +6387,7 @@ GameObject:
   - component: {fileID: 1005682726579884796}
   m_Layer: 15
   m_Name: upper_arm_L_005
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6417,7 +6417,7 @@ GameObject:
   - component: {fileID: 7583207742652339484}
   m_Layer: 15
   m_Name: hips_006
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6448,7 +6448,7 @@ GameObject:
   - component: {fileID: 993758839914502765}
   m_Layer: 15
   m_Name: shin_L_002
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6478,7 +6478,7 @@ GameObject:
   - component: {fileID: 6835872539480280443}
   m_Layer: 15
   m_Name: hips_017
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6509,7 +6509,7 @@ GameObject:
   - component: {fileID: 6771058092479481704}
   m_Layer: 15
   m_Name: hips_014
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6540,7 +6540,7 @@ GameObject:
   - component: {fileID: 6648593107376089572}
   m_Layer: 15
   m_Name: chest
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6573,7 +6573,7 @@ GameObject:
   - component: {fileID: 5250840293948537239}
   m_Layer: 15
   m_Name: shin_R_004
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6603,7 +6603,7 @@ GameObject:
   - component: {fileID: 2555311814994436086}
   m_Layer: 15
   m_Name: shin_R_005
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6633,7 +6633,7 @@ GameObject:
   - component: {fileID: 6222835621053775908}
   m_Layer: 15
   m_Name: upper_arm_R_002
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6664,7 +6664,7 @@ GameObject:
   - component: {fileID: 4913297248343369949}
   m_Layer: 15
   m_Name: thigh_R
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6695,7 +6695,7 @@ GameObject:
   - component: {fileID: 697428240895041481}
   m_Layer: 15
   m_Name: upper_arm_R_005
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6725,7 +6725,7 @@ GameObject:
   - component: {fileID: 2500153626881836481}
   m_Layer: 15
   m_Name: neck
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6756,7 +6756,7 @@ GameObject:
   - component: {fileID: 2878774064991052659}
   m_Layer: 15
   m_Name: shin_L_004
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6786,7 +6786,7 @@ GameObject:
   - component: {fileID: 1090370851735255225}
   m_Layer: 15
   m_Name: shin_R_002
-  m_TagString: Untagged
+  m_TagString: Shootable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

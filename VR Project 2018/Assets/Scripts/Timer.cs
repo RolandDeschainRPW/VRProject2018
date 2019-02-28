@@ -52,7 +52,8 @@ public class Timer : MonoBehaviour
         if ((int)t / 60 == 2)
         //if ((int)t == 10)    //TEST MODE
         {
-            finish("Go to the next level!");
+            string text = levelName.Equals("Heart", System.StringComparison.OrdinalIgnoreCase) ? "Kill the main virus!" : "Go to the next level!";
+            finish(text);
             GameObject.FindGameObjectWithTag("GM").GetComponent<MyGameManagerScript>().Unlock();
         }
     }

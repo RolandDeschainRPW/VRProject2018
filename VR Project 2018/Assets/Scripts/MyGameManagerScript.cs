@@ -13,7 +13,9 @@ public class MyGameManagerScript : MonoBehaviour
     public static MyGameManagerScript Instance{ set; get; }
     private bool unlock = false;
     private int level = STOMACH;
-    
+    // TEST MODE
+    //private int level = HEART;
+
     // Start is called before the first frame update
     void Start()
     {
