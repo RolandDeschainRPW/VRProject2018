@@ -3,10 +3,10 @@ using UnityEngine.SceneManagement;
 
 namespace CompleteProject
 {
-    public class GameOverManager : MonoBehaviour
+    public class WinManager : MonoBehaviour
     {
-        public PlayerHealth playerHealth;       // Reference to the player's health.
-        public float restartDelay = 5f;
+        public EnemyHealth virusHealth;       // Reference to the main virus health.
+        public float restartDelay = 10f;
         
 
         Animator anim;                          // Reference to the animator component.
@@ -16,17 +16,17 @@ namespace CompleteProject
         void Awake ()
         {
             // Set up the reference.
-            anim = GetComponent <Animator> ();
+            anim = GameObject.FindGameObjectWithTag("HUD").GetComponent<Animator>();
         }
 
 
         void Update ()
         {
-            // If the player has run out of health...
-            if(playerHealth.currentHealth <= 0)
+            // If the main virus has run out of health...
+            if(virusHealth.currentHealth <= 0)
             {
-                // ... tell the animator the game is over.
-                anim.SetTrigger ("GameOver");
+                // ... tell the animator the player won the game.
+                anim.SetTrigger ("Win");
 
                 restartTimer += Time.deltaTime;
                 if (restartTimer >= restartDelay)

@@ -15,6 +15,7 @@ TagManager:
   - StomachSpawnersSet
   - LiverSpawnersSet
   - HeartSpawnersSet
+  - HUD
   layers:
   - Default
   - TransparentFX
