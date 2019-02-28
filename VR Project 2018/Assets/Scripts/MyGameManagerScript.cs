@@ -28,7 +28,7 @@ public class MyGameManagerScript : MonoBehaviour
         } else if (level == HEART) {
             GameObject.FindGameObjectWithTag("HeartUnlockable").SetActive(false);
         } else if (level == GAME_OVER) {
-            GameObject.FindGameObjectWithTag("Player").GetComponent<Timer>().beginTimer("Stomach");
+            //GameObject.FindGameObjectWithTag("Player").GetComponent<Timer>().beginTimer("Stomach");
         }
         level++;
         unlock = false;
