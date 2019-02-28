@@ -208,18 +208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 401bc72887904604199d693d24aa3b3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stomachSpawners:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  LiverSpawners:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  HeartSpawners:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!4 &1969620218
 Transform:
   m_ObjectHideFlags: 0
