@@ -6,13 +6,9 @@ namespace CompleteProject
     public class WinManager : MonoBehaviour
     {
         public EnemyHealth virusHealth;       // Reference to the main virus health.
-        public float restartDelay = 10f;
         
-
         Animator anim;                          // Reference to the animator component.
-        float restartTimer;
-
-
+        
         void Awake ()
         {
             // Set up the reference.
@@ -28,13 +24,10 @@ namespace CompleteProject
                 // ... tell the animator the player won the game.
                 anim.SetTrigger ("Win");
 
-                restartTimer += Time.deltaTime;
-                if (restartTimer >= restartDelay)
+                if (Input.GetKeyDown(KeyCode.KeypadEnter) || Input.GetKeyDown(KeyCode.Return))
                 {
-                    Scene loadedLevel = SceneManager.GetActiveScene();
-                    SceneManager.LoadScene(loadedLevel.buildIndex);
-                    GameObject.FindGameObjectWithTag("GM").GetComponent<MyGameManagerScript>().setGameOverState();
-                    GameObject.FindGameObjectWithTag("GM").GetComponent<MyGameManagerScript>().Unlock();
+                    // Back to Main Menu
+                    SceneManager.LoadScene(0);
                 }
             }
         }
